@@ -41,7 +41,7 @@ if (isset($_POST['delete'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>John Doe's Delete Profile</title>
+ <title>0fb3f0ec Ferdaous COGING's Add Profile</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
@@ -58,4 +58,5 @@ if (isset($_POST['delete'])) {
     </form>
 </div>
 </body>
+
 </html>
