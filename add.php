@@ -46,7 +46,7 @@ if (isset($_POST['first_name']) && isset($_POST['last_name']) &&
 <!DOCTYPE html>
 <html>
 <head>
-    <title>John Doe's Add Profile</title>
+ <title>0fb3f0ec Ferdaous COGING's Add Profile</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
@@ -71,4 +71,5 @@ if (isset($_POST['first_name']) && isset($_POST['last_name']) &&
     </form>
 </div>
 </body>
+
 </html>
