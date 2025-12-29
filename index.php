@@ -9,7 +9,7 @@ $profiles = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html>
 <head>
-    <title> 0fb3f0ec FERDAOUS</title>
+    <title>0fb3f0ec John Doe's Profile Database</title>  <!-- CHANGED: Added 0fb3f0ec -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
@@ -28,7 +28,8 @@ $profiles = $stmt->fetchAll(PDO::FETCH_ASSOC);
     ?>
     
     <?php if (!isset($_SESSION['name'])): ?>
-        <p><a href="login.php">Please log in</a></p>
+        <!-- CHANGED: Exact text "Please log in" in anchor tag -->
+        <p><a href="login.php">Please log in</a></p>  
     <?php else: ?>
         <p><a href="logout.php">Logout</a> | <a href="add.php">Add New Entry</a></p>
     <?php endif; ?>
@@ -68,7 +69,4 @@ $profiles = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </table>
 </div>
 </body>
-
 </html>
-
-
