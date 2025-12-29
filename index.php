@@ -9,7 +9,7 @@ $profiles = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>John Doe's Profile Database</title>
+    <title>PROFILES</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
@@ -68,4 +68,5 @@ $profiles = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </table>
 </div>
 </body>
+
 </html>
