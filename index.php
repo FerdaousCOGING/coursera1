@@ -9,7 +9,7 @@ $profiles = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>FERDAOUS</title>
+    <title> 0fb3f0ec FERDAOUS</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
@@ -70,4 +70,5 @@ $profiles = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </body>
 
 </html>
+
 
